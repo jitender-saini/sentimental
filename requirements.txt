@@ -1,0 +1,19 @@
+werkzeug==0.15.5
+Flask==1.0.2
+gevent
+Flask-Testing==0.7.1
+flask-restplus
+Flask-RESTful==0.3.7
+coverage==4.5.3
+codecov
+flake8
+python-dotenv
+pyyaml
+spacy>=2.0.11
+pandas==0.22.0
+numpy==1.16
+scikit-learn>=0.19.1
+# for windows with CPU
+# https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-win_amd64.whl
+# for linux cpu
+https://download.pytorch.org/whl/cpu/torch-1.1.0-cp36-cp36m-linux_x86_64.whl

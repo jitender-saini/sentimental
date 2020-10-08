@@ -1,0 +1,89 @@
+[2020-10-05 16:35:30,733] INFO [sentiment-service] Starting web server
+[2020-10-05 16:35:58,905] INFO [sentiment-service] Starting web server
+[2020-10-05 16:40:33,707] INFO [sentiment-service] Stopping web server
+[2020-10-05 16:40:40,280] INFO [sentiment-service] Starting web server
+[2020-10-05 16:42:50,815] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:42:50,816] DEBUG [sentiment-service] post data None
+[2020-10-05 16:42:50,816] INFO [sentiment-service] invalid json
+[2020-10-05 16:43:44,755] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:43:44,756] DEBUG [sentiment-service] post data None
+[2020-10-05 16:43:44,756] INFO [sentiment-service] invalid json
+[2020-10-05 16:44:07,450] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:44:07,451] DEBUG [sentiment-service] post data {'text': 'i am so happy'}
+[2020-10-05 16:44:07,452] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-05 16:44:07,502] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-05 16:46:31,910] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:46:31,911] DEBUG [sentiment-service] post data {'text': 'i am so happy'}
+[2020-10-05 16:46:31,911] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-05 16:46:31,912] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-05 16:47:39,441] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-05 16:47:39,443] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-05 16:47:39,444] DEBUG [sentiment-service] cleaned text: I am so SAD
+[2020-10-05 16:47:39,445] DEBUG [sentiment-service] text: I am so SAD, probabilities: [[0.9993317127227783, 0.0006683003157377243]]
+[2020-10-05 16:47:39,446] DEBUG [sentiment-service] cleaned text: today is a Good day
+[2020-10-05 16:47:39,447] DEBUG [sentiment-service] text: today is a Good day, probabilities: [[0.001086299424059689, 0.9989136457443237]]
+[2020-10-05 16:48:06,164] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-05 16:48:06,166] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-05 16:48:06,167] DEBUG [sentiment-service] cleaned text: I am so SAD
+[2020-10-05 16:48:06,169] DEBUG [sentiment-service] text: I am so SAD, probabilities: [[0.9993317127227783, 0.0006683003157377243]]
+[2020-10-05 16:48:06,169] DEBUG [sentiment-service] cleaned text: today is a Good day
+[2020-10-05 16:48:06,171] DEBUG [sentiment-service] text: today is a Good day, probabilities: [[0.001086299424059689, 0.9989136457443237]]
+[2020-10-05 16:48:47,303] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:48:47,304] DEBUG [sentiment-service] post data {'text': 'i am very sad'}
+[2020-10-05 16:48:47,304] DEBUG [sentiment-service] cleaned text: i am very sad
+[2020-10-05 16:48:47,306] DEBUG [sentiment-service] text: i am very sad, probabilities: [[0.9990105628967285, 0.0009894997347146273]]
+[2020-10-05 16:48:59,351] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:48:59,351] DEBUG [sentiment-service] post data {'text': 'i need to travel'}
+[2020-10-05 16:48:59,352] DEBUG [sentiment-service] cleaned text: i need to travel
+[2020-10-05 16:48:59,368] DEBUG [sentiment-service] text: i need to travel, probabilities: [[0.7900733947753906, 0.20992662012577057]]
+[2020-10-05 16:50:43,710] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:50:43,711] DEBUG [sentiment-service] post data {'text': 'i need to money'}
+[2020-10-05 16:50:43,711] DEBUG [sentiment-service] cleaned text: i need to money
+[2020-10-05 16:50:43,713] DEBUG [sentiment-service] text: i need to money, probabilities: [[0.958928108215332, 0.04107196256518364]]
+[2020-10-05 16:50:59,199] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:50:59,200] DEBUG [sentiment-service] post data {'text': "i'm hungry"}
+[2020-10-05 16:50:59,200] DEBUG [sentiment-service] cleaned text: i m hungry
+[2020-10-05 16:50:59,210] DEBUG [sentiment-service] text: i'm hungry, probabilities: [[0.9586136937141418, 0.041386257857084274]]
+[2020-10-05 16:51:04,817] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:51:04,818] DEBUG [sentiment-service] post data {'text': "i'm full"}
+[2020-10-05 16:51:04,818] DEBUG [sentiment-service] cleaned text: i m full
+[2020-10-05 16:51:04,824] DEBUG [sentiment-service] text: i'm full, probabilities: [[0.19029416143894196, 0.8097057938575745]]
+[2020-10-05 16:51:20,661] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:51:20,662] DEBUG [sentiment-service] post data {'text': 'i am drinking'}
+[2020-10-05 16:51:20,662] DEBUG [sentiment-service] cleaned text: i am drinking
+[2020-10-05 16:51:20,664] DEBUG [sentiment-service] text: i am drinking, probabilities: [[0.04429325461387634, 0.9557067155838013]]
+[2020-10-05 16:51:26,388] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:51:26,389] DEBUG [sentiment-service] post data {'text': 'i am drinking beer'}
+[2020-10-05 16:51:26,389] DEBUG [sentiment-service] cleaned text: i am drinking beer
+[2020-10-05 16:51:26,391] DEBUG [sentiment-service] text: i am drinking beer, probabilities: [[0.02077176235616207, 0.9792283773422241]]
+[2020-10-05 16:51:30,517] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 16:51:30,518] DEBUG [sentiment-service] post data {'text': 'i am drinking poison'}
+[2020-10-05 16:51:30,518] DEBUG [sentiment-service] cleaned text: i am drinking poison
+[2020-10-05 16:51:30,520] DEBUG [sentiment-service] text: i am drinking poison, probabilities: [[0.0632116049528122, 0.9367883205413818]]
+[2020-10-05 17:24:37,675] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 17:24:37,675] DEBUG [sentiment-service] post data {'text': 'i am so happy'}
+[2020-10-05 17:24:37,675] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-05 17:24:37,677] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-05 17:24:49,141] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-05 17:24:49,142] DEBUG [sentiment-service] post data {'text': 'i am so sad'}
+[2020-10-05 17:24:49,142] DEBUG [sentiment-service] cleaned text: i am so sad
+[2020-10-05 17:24:49,144] DEBUG [sentiment-service] text: i am so sad, probabilities: [[0.9993317127227783, 0.0006683003157377243]]
+[2020-10-08 14:17:25,362] INFO [sentiment-service] Starting web server
+[2020-10-08 14:18:14,506] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-08 14:18:14,507] DEBUG [sentiment-service] post data {'text': 'i am so sad'}
+[2020-10-08 14:18:14,508] DEBUG [sentiment-service] cleaned text: i am so sad
+[2020-10-08 14:18:14,603] DEBUG [sentiment-service] text: i am so sad, probabilities: [[0.9993317127227783, 0.0006683003157377243]]
+[2020-10-08 14:18:21,411] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-08 14:18:21,411] DEBUG [sentiment-service] post data {'text': 'i am so postive'}
+[2020-10-08 14:18:21,412] DEBUG [sentiment-service] cleaned text: i am so postive
+[2020-10-08 14:18:21,415] DEBUG [sentiment-service] text: i am so postive, probabilities: [[0.40014517307281494, 0.5998547673225403]]
+[2020-10-08 14:18:36,041] DEBUG [sentiment-service] /sentiment endpoint called
+[2020-10-08 14:18:36,041] DEBUG [sentiment-service] post data {'text': 'i am so happy'}
+[2020-10-08 14:18:36,041] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-08 14:18:36,043] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-08 14:18:51,030] DEBUG [sentiment-service] cleaned text: i am so happy
+[2020-10-08 14:18:51,043] DEBUG [sentiment-service] text: i am so happy, probabilities: [[0.0014209835790097713, 0.9985790848731995]]
+[2020-10-08 14:18:51,044] DEBUG [sentiment-service] cleaned text: I am so SAD
+[2020-10-08 14:18:51,045] DEBUG [sentiment-service] text: I am so SAD, probabilities: [[0.9993317127227783, 0.0006683003157377243]]
+[2020-10-08 14:18:51,046] DEBUG [sentiment-service] cleaned text: today is a Good day
+[2020-10-08 14:18:51,048] DEBUG [sentiment-service] text: today is a Good day, probabilities: [[0.001086299424059689, 0.9989136457443237]]
